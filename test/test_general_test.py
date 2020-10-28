@@ -1,4 +1,4 @@
-from src.code.py import duplicate_encode
+from src.code import duplicate_encode
 
 def test_din():
     assert duplicate_encode("din") == "((("

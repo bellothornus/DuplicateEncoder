@@ -3,9 +3,9 @@ def duplicate_encode(string):
     characters = list(string)
     for character in characters:
         if characters.count(character) > 1:
-            encode += "("
-        else:
             encode += ")"
+        else:
+            encode += "("
     return encode
 
 if __name__ == "__main__":
