@@ -1,4 +1,5 @@
 def duplicate_encode(string):
+    string = string.lower()
     encode = ""
     characters = list(string)
     for character in characters:
